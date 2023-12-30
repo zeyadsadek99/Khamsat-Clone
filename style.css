@@ -1,0 +1,501 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    /* height: 2000px; */
+    background-color: rgb(233, 233, 233);
+    box-sizing: border-box;
+    max-height: 3000px;
+    
+}
+/* nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: 99%;
+    /* border: 2px solid gray; */
+    background-color: rgb(60, 62, 62);
+    padding: 8px;
+    position: fixed;
+    z-index: 1;
+}
+.right{
+    display: flex;
+    /* justify-content: space-evenly; */
+    color: #efefef;
+
+}
+
+nav div h4{
+    position: relative;
+    right: 44px;
+    bottom: 12px;
+    color: white;
+    cursor: pointer;
+}
+nav div img{
+    height: 30px;
+    position: relative;
+    bottom: 2px;
+    right: 20px;
+    cursor: pointer;
+
+}
+.left{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+i{
+    color: white;
+}
+/* search bar */
+.search{
+    background-image: url(https://khamsat.hsoubcdn.com/assets/images/hero-33cc6eb8f1a98f8aacf154a4ff4c5f76d5610553e8ba4accb6d22515a64a184a.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    padding-top: 130px;
+    
+}
+.search h1{
+    font-size: 300%;
+    position: relative;
+    text-align: center;
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+.search p{
+    font-size: 200%;
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+}
+.form{
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    padding: 30px;
+}
+.search .searchbar{
+    width: 700px;
+    padding: 20px;
+    direction: rtl;
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+.search .form .button1{
+    background-color: #52b035;
+    border-color: #52b035;   
+    position: absolute;
+    height: 50px;
+    width: 70px;
+    top: 35px;
+    left: 275px;
+    color: white;
+    font-size: large;
+
+}
+
+/* body */
+section{
+    flex-direction: column;
+    display: flex;
+    padding: 10px;
+}
+
+h2{
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";}
+
+
+.title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 44px;
+    color: rgb(36, 35, 35);
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+.up{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 10px; */
+    height: 190px;
+        
+}
+/* a:visited{
+    text-decoration: none;
+    color: ivory;
+}
+a{
+    height: 100%;
+    max-width: 350px;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(124, 124, 104);
+} */
+.div1{
+    height: 100%;
+    color: white;
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 400;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://khamsat.hsoubcdn.com/assets/images/remote-64132428314c98f2e8abe5e4b98b3a03f215fdd04788b533f52171026fb30d70.jpg);
+    /* z-index: 1; */
+}
+.div2{
+    height: 100%;
+    color: white;
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 400;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://khamsat.hsoubcdn.com/assets/images/social-5598c2401b6ca90eda3df7c69c8c4727dcc937f8cc995096456d8a8773f4d324.jpg);
+}
+.div3{
+    height: 100%;
+    color: white;
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 400;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://khamsat.hsoubcdn.com/assets/images/development-bb416454cb6338d96f266211eb8d2e10fc669ddb8470ee95eef00c841df903e8.jpg);
+}
+.div4{
+    height: 100%;
+    color: white;
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 400;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    z-index: -1;
+    /* opacity: 0.5; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* filter: brightness(80%); */
+    background-image: url(https://khamsat.hsoubcdn.com/assets/images/bussiness-2c1f54b0bd848ce232a972323a799f3abe75235eb4f00fb0180d4ede6ac390dd.jpg);
+}
+/* .div4 h2{
+    opacity: 3;
+    position: absolute;
+    z-index: 1;
+} */
+.down{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 10px; */
+    height: 190px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+
+}
+.div5{
+    height: 100%;
+    color: white;
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 400;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://khamsat.hsoubcdn.com/assets/images/translate-ad-ad754e21fea72c69a11e1000903e1f848812bc20e3f1033d6e44f15c249dcd61.jpg);
+    /* z-index: 1; */
+}
+.div6{
+    height: 100%;
+    color: white;
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 400;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://khamsat.hsoubcdn.com/assets/images/audio-93508fbd03c4ca1a20eabc10ecbf7924161d61e7139878bc93641c310d195e13.jpg);
+    /* z-index: 1; */
+}
+.div7{
+    height: 100%;
+    color: white;
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 400;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://khamsat.hsoubcdn.com/assets/images/design-17881dc3ab0928311acc42761ff77c7e9a09e077c326fbc5d373e4fe1b5ad397.jpg);
+    /* z-index: 1; */
+}
+.div8{
+    height: 100%;
+    color: white;
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 400;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://khamsat.hsoubcdn.com/assets/images/video-9b7fb5a1ae97544b32573e1625c5b12bb86e5fff9abfe4ae5ba7371ea86c41ae.jpg);
+    /* z-index: 1; */
+}
+.section1{
+    margin-bottom: 40px;
+}
+.taswek{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    /* margin: 10px; */
+    /* padding: 10px; */
+}
+.divv1 img{
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 300px;
+}
+.khadmat{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.khadmat h2{
+    color: #1b1c1d;
+    font-size: 27px;
+    font-family: "Noto Kufi Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+.khadmat p{
+    border: 1px solid rgb(42, 131, 42);
+    width: 90px;
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+    color: rgb(42, 131, 42);
+    position: relative;
+    bottom: 5px;
+
+}
+
+.taswek p{
+    text-align: start;
+    margin-right: 13px;
+    margin-left: 20px;
+    /* width: 310px; */
+    word-wrap: break-word;
+    direction: rtl;
+    font-size: 17px;
+}
+.taswek .p1{
+    text-align: start;
+    margin-right: 13px;
+    margin-left: 49px;
+    /* width: 310px; */
+    word-wrap: break-word;
+    direction: rtl;
+    font-size: 17px;
+}
+.taswek .p2{
+    text-align: start;
+    margin-right: 13px;
+    margin-left: 49px;
+    /* width: 310px; */
+    word-wrap: break-word;
+    direction: rtl;
+    font-size: 14px;
+    color: #777777;
+}
+.stars{
+    
+    font-size: 13px;
+    text-align: start;
+    margin-right: 13px;
+    direction: rtl;
+    color: #777777;
+
+}
+.div12{
+    direction: rtl;
+    margin-right: 13px;
+    margin-top: 10px;
+}
+.div12 span{
+    font-weight: bold;
+}
+
+.last{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    direction: rtl;
+    max-width: 150%;
+    margin-top: 20px;
+    padding-left: 100px;
+    height: 250px;
+    font-size: large;
+    color: #444;
+}
+.last .c1 {
+    margin-top: 15px;
+    padding: 15px;
+}
+.last .c1 h3{
+    font-size: 20px;
+}
+.last .c1 ul{
+    padding-right: 15px;
+}
+ul li{
+    list-style-type: square;
+    margin-bottom: 10px;
+}
+.last .c4{
+    margin-top: 15px;
+    padding: 15px;
+}
+.endbar{
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 1px; */
+    padding: 15px;
+    height: 30px;
+
+}
+.endbar .ymen{
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+}
+.endbar .ymen h3{
+    margin-right: 15px;
+    /* margin-top: 10px; */
+}
+.end{
+    background-color: white;
+    direction: rtl;
+    max-width: 100%;
+    margin-top: 20px;
+    /* padding-left: 100px; */
+    max-height: 370px;
+    /* font-size: large; */
+    color: #444;
+
+    
+}
+.end p{
+    position: relative;
+    font-size: smaller;
+}
+.end .row1{
+    display: flex;
+    margin: 50px;
+    /* padding-top: 60px; */
+    padding-left: 110px;
+    padding-right: 110px;
+    
+    justify-content: center;
+
+}
+.end .row1 div{
+    margin: 10px;
+}
+.end .row2{
+    display: flex;
+    margin-right: 50px;
+    /* padding-top: 60px; */
+    padding-left: 110px;
+    padding-right: 110px;
+    
+    justify-content: start;
+
+}
+.end .row2 div{
+    position: relative;
+    bottom: 40px;
+    margin : 15px;
+}
+
+/* .relative{
+    background-image: url(lohp-category-development-v2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    width: 600px;
+    height: 500px;
+    border: 3px solid red;
+    z-index: -1;
+}
+.absolute{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    border: 3px solid blue;
+    top: 150px;
+    left: 240px;
+    z-index: 1;
+} */
